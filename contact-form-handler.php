@@ -5,7 +5,7 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 
-$email_from = 'info@easytutorialspro.com'; // domain name
+$email_from = 'codingforfutureus.org'; // domain name
 
 $email_subject = "New Form Submission";
 
