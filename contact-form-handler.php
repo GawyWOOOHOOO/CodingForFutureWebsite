@@ -5,7 +5,7 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 
-$email_from = 'codingforfutureus.org'; // domain name
+$email_from = 'https://codingforfutureus.org/'; // domain name
 
 $email_subject = "New Form Submission";
 
@@ -15,7 +15,7 @@ $email_body = "User Name: $name.\n" .
     "User Message: $message.\n";
 
 
-$to = "codingforfutureca@gmail.com";
+$to = "codingforfutureus@gmail.com";
 
 $headers = "From: $email_from \r\n";
 
