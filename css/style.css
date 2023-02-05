@@ -552,23 +552,6 @@ body {
     }
 }
 
-.row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.blog-col {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    overflow: hidden;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-
-}
 
 .blog-col img {
     width: 450px;
@@ -678,9 +661,8 @@ body {
     width: 100%;
     border-radius: 6px;
     padding: 30px;
-    margin: 100 100px;
+    margin: 100px 100px;
     background-color: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .container header {
