@@ -212,11 +212,21 @@ h3 {
 }
 
 .campus-col {
-    flex-basis: 32%;
+    flex-basis: 50%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    margin: auto;
+}
+
+.left {
+    float:left;
+    width:50%;
+}
+.right {
+    float:right;
+    width:50%;
 }
 
 .campus-col img {
