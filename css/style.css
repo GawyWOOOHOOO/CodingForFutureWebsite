@@ -475,7 +475,7 @@ body {
 }
 
 .meet-team .member-box button {
-
+    border-color: transparent;
 }
 
 .meet-team .member-box img {
@@ -506,9 +506,16 @@ body {
     width: 80%;
 }
 
-
-
-.modal {
+.meet-team .member-box .member-info {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 99;
+    display: none;
+    height: 100%;
+    width: 200%;
+    border: 1px solid #000;
+    background: white;
 }
 
 @media (max-width: 700px) {
