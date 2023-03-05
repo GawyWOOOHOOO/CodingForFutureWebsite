@@ -470,6 +470,55 @@ body {
     height: 50vh;
     background-size: cover;
 }
+.meet-team .member-box {
+    position: relative;
+}
+
+.meet-team .member-box button {
+
+}
+
+.meet-team .member-box img {
+    filter: grayscale(100%) brightness(80%);
+    transition: .2s ease-in-out;
+}
+
+.meet-team .member-box img:hover {
+    filter: grayscale(0%);
+}
+
+.meet-team .member-box h2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    width: 80%;
+}
+.meet-team .member-box h3 {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+
+
+.modal {
+}
+
+@media (max-width: 700px) {
+    .meet-team .member-box h2 {
+        font-size: 1rem;
+    }
+    .meet-team .member-box h3 {
+        font-size: .8rem;
+    }
+}
 
 /*---------- Blog Page -------------*/
 
