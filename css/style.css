@@ -29,6 +29,7 @@ body {
 
 .navbar .navbar-nav .nav-item {
     position: relative;
+    transition: .3s ease-in-out;
 }
 
 @media (min-width: 768px) {
@@ -44,8 +45,12 @@ body {
         transition: all 0.5s ease;
     }
 
-    .navbar .navbar-nav .nav-item:hover::after {
+    .navbar .navbar-nav .nav-item:not(#highlighted):hover::after {
         width: 70%;
+    }
+
+    #highlighted:hover {
+        transform: scale(110%);
     }
 }
 
@@ -103,40 +108,20 @@ body {
     background: #89CFF0;
 }
 
+#gallery {
+    margin: 100px auto;
+    text-align: center;
+}
 
-/*@media (max-width: 700px) {*/
-/*    .nav-links ul li {*/
-/*        display: block;*/
-/*    }*/
+.splide  {
+    height: 50%;
+}
 
-/*    .nav-links {*/
-/*        position: fixed;*/
-/*        background: #c1e1ec;*/
-/*        height: 100vh;*/
-/*        width: 200px;*/
-/*        top: 0;*/
-/*        right: -200px;*/
-/*        text-align: left;*/
-/*        z-index: 2;*/
-/*        transition: 0.5s;*/
-/*    }*/
-
-/*    .nav-links ul {*/
-/*        padding: 30px;*/
-/*    }*/
-
-/*    nav .fa {*/
-/*        display: block;*/
-/*        color: #fff;*/
-/*        margin: 10px;*/
-/*        font-size: 22px;*/
-/*        cursor: pointer;*/
-/*    }*/
-
-/*    .text-box h1 {*/
-/*        font-size: 20px;*/
-/*    }*/
-/*}*/
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /*---------- course --------*/
 
@@ -847,4 +832,9 @@ form .buttons button, .backBtn {
     form .fields .input-field {
         width: 100%;
     }
+}
+
+/*------- new chapter ------------*/
+#new-chapter {
+    margin: 100px auto;
 }
