@@ -464,7 +464,7 @@ body {
 }
 
 .meet-team .member-box img {
-    filter: grayscale(100%) brightness(80%);
+    filter: grayscale(100%) brightness(90%);
     transition: .2s ease-in-out;
 }
 
@@ -486,7 +486,7 @@ body {
     position: absolute;
     z-index: 99;
     display: none;
-    height: 100%;
+    height: auto;
     border: 1px solid #000;
     background: white;
     text-align: left;
