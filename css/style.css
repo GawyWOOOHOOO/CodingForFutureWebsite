@@ -5,16 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.header {
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/cube.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-}
-
 body {
     padding-top: 5rem;
 }
@@ -69,16 +59,6 @@ body {
     background-size: cover;
 }
 
-
-.text-box {
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 .text-box h1 {
     font-size: 62px;
@@ -170,21 +150,7 @@ p {
 }
 
 .course-box:hover {
-    box-shadow: 0 0 20px 0px rgba(137, 207, 240, 1);
-
-}
-
-.signup {
-    margin-top: -100%;
-    margin-bottom: 100px auto;
-    margin-left: 100px auto;
-    margin-right: 100px auto;
-    margin: auto;
-    width: 80%;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(137, 207, 240, 1);
 
 }
 
@@ -202,15 +168,6 @@ p {
     position: relative;
     overflow: hidden;
     margin: auto;
-}
-
-.left {
-    float:left;
-    width:50%;
-}
-.right {
-    float:right;
-    width:50%;
 }
 
 .campus-col img {
@@ -251,20 +208,6 @@ p {
 
 /*-------------- Facilities ----------------*/
 
-.facility {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.facility-col {
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-
 .facility-col img {
     width: 100%;
     border-radius: 10px;
@@ -282,24 +225,6 @@ p {
 
 /*---------------- testimonials ------------------*/
 
-.testimonials {
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    text-align: center;
-}
-
-.testimonial-col {
-    flex-basis: 44%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    background: #c1e1ec;
-    padding: 25px;
-    cursor: pointer;
-    display: flex;
-}
-
 .testimonial-col img {
     height: 40px;
     margin-left: 5px;
@@ -316,13 +241,9 @@ p {
     text-align: left;
 }
 
-.testimonial-col .fa {
-    color: #f44336;
-}
-
 @media (max-width: 700px) {
     .testimonial-col img {
-        margin-left: 0px;
+        margin-left: 0;
         margin-right: 15px;
     }
 }
@@ -367,30 +288,9 @@ p {
     font-weight: 600;
 }
 
-.icons .fa {
-    color: #f44336;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
-}
-
-.fa-heart-o {
-    color: #f44336;
-}
-
 
 /*--------------- About Us Page --------------*/
 
-
-.sub-header {
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/smartphone.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
 
 .sub-header h1 {
     margin-top: 100px;
@@ -401,11 +301,6 @@ p {
     margin: auto;
     padding-top: 80px;
     padding-bottom: 50px;
-}
-
-.about-col {
-    flex-basis: 48%;
-    padding: 30px 2px;
 }
 
 .about-col h1 {
@@ -436,10 +331,6 @@ p {
     background: #f44336;
 }
 
-.content-image {
-    flex-basis: 50%;
-}
-
 .about-col img {
     width: 100%;
 }
@@ -461,6 +352,7 @@ body {
 .meet-team .member-box .btn {
     position: relative;
     border-color: transparent;
+    padding-bottom: 20%;
 }
 
 .meet-team .member-box img {
@@ -472,13 +364,14 @@ body {
     filter: grayscale(0%);
 }
 
-.meet-team .member-box .btn h2 {
+.meet-team .member-box .btn div {
     position: absolute;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 1.5rem;
+    font-weight: bolder;
     width: 80%;
 }
 
@@ -566,12 +459,6 @@ body {
     box-sizing: border-box;
 }
 
-.comment-box {
-    border: 1px solid #ccc;
-    margin: 50px 0;
-    padding: 10px 20px;
-}
-
 .comment-box h3 {
     text-align: left;
 }
@@ -602,12 +489,6 @@ body {
     width: 450px;
 }
 
-
-.comment-box {
-    border: 1px solid #ccc;
-    margin: 50px 0;
-    padding: 10px 20px;
-}
 
 .comment-box h3 {
     text-align: left;
@@ -647,18 +528,9 @@ body {
     width: 100%;
 }
 
-.contact-us .fa {
-    font-size:200%;
-    color: #f44336;
-}
 .contact-us iconify-icon {
     font-size:200%;
     color: #f44336;
-}
-
-.footer-link {
-    text-decoration: none;
-    color: #777;
 }
 
 .project {
@@ -689,53 +561,6 @@ body {
     min-height: 490px;
     background-color: #fff;
     overflow: hidden;
-}
-
-.container form .form {
-    position: absolute;
-    background-color: #fff;
-    transition: 0.3s ease;
-}
-
-.container form .form.second {
-    opacity: 0;
-    pointer-events: none;
-    transform: translateX(100%);
-}
-
-form.secActive .form.second {
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateX(0);
-}
-
-form.secActive .form.first {
-    opacity: 0;
-    pointer-events: none;
-    transform: translateX(-100%);
-}
-
-.container form .title {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 6px 0;
-    color: #333;
-}
-
-.container form .fields {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-form .fields .input-field {
-    display: flex;
-    width: calc(100% / 3 - 15px);
-    flex-direction: column;
-    margin: 4px 0;
 }
 
 .input-field label {
@@ -770,28 +595,6 @@ form .fields .input-field {
     color: #333;
 }
 
-.container form button, .backBtn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45px;
-    max-width: 200px;
-    width: 100%;
-    border: none;
-    outline: none;
-    color: #fff;
-    border-radius: 5px;
-    margin: 25px 0;
-    background-color: #4070f4;
-    transition: all 0.3s linear;
-    cursor: pointer;
-}
-
-.container form .btnText {
-    font-size: 14px;
-    font-weight: 400;
-}
-
 form button:hover {
     background-color: #265df2;
 }
@@ -805,15 +608,6 @@ form .backBtn i {
     transform: rotate(180deg);
 }
 
-form .buttons {
-    display: flex;
-    align-items: center;
-}
-
-form .buttons button, .backBtn {
-    margin-right: 14px;
-}
-
 @media (max-width: 750px) {
     .container form {
         overflow-y: scroll;
@@ -823,15 +617,9 @@ form .buttons button, .backBtn {
         display: none;
     }
 
-    form .fields .input-field {
-        width: calc(100% / 2 - 15px);
-    }
 }
 
 @media (max-width: 550px) {
-    form .fields .input-field {
-        width: 100%;
-    }
 }
 
 /*------- new chapter ------------*/
